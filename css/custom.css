@@ -1,0 +1,21 @@
+.custom-width {
+    width: 250px !important;
+}
+
+@media (max-width: 1400px) {
+    .custom-width {
+        width: 200px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .custom-width {
+        width: 150px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .custom-width {
+        width: 0px !important;
+    }
+}
